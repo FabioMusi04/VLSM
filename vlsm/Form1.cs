@@ -146,10 +146,10 @@ namespace vlsm
         bool CheckHost(char classe, int host)
         {
             if (classe == 'A')
-                if (host <= 16777214 && host > 65.534)
+                if (host <= 16777214 && host > 65534)
                     return true;
             if (classe == 'B')
-                if (host <= 65.534 && host > 254)
+                if (host <= 65534 && host > 254)
                     return true;
             if (classe == 'C')
                 if (host <= 254 && host > 0)
